@@ -1,0 +1,14 @@
+Package: nhlapi
+Title: R Interface to NHL Stats API
+Version: 0.0.0.9000
+Authors@R: person("Robert","Zamora", email = "zamora.rr@gmail.com", role = c("aut", "cre"))
+Description: Provides functions to query NHL stats API.
+Depends: R (>= 3.4.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports:
+  httr,
+  jsonlite,
+  utils
